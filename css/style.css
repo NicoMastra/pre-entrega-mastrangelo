@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: black;
+}
+.grillagrid {
+  display: grid;
+  height: 55vh;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header "
+    "main "
+    "footer";
+}
+
+.puedes {
+  padding-top: 40px;
+  color: gold;
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  text-decoration: solid underline;
+}
+.parrafo3 {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 1.2rem;
+  padding-bottom: 0;
+}
+.cerveza {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 5 0 5 0;
+  color: gold;
+}
+.nb,
+.logo2 {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenes_birra {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+.chebe {
+  padding-top: 2.5rem;
+  margin-left: 0px;
+}
+
+.lup {
+  font-size: 1rem;
+  color: gold;
+  text-align: center;
+  text-decoration: solid underline;
+}
+.redes {
+  text-align: center;
+  color: gold;
+}
+.redesimg {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.gmail {
+  padding-left: 0;
+}
+
+.fa-brands {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin-right: 2.1rem;
+  margin-top: 0rem;
+  font-size: 2rem;
+}
+
+.estamos {
+  text-decoration: underline;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.footer-bottom_copyright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+}
+/* css envios */
+
+.fondo2 {
+  background-image: url("../img/inicio/envios/envios2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-attachment: fixed;
+  width: 100%;
+  font-family: "Unbounded", cursive;
+}
+.envios {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 20px 20px 20px;
+  color: white;
+}
+.logo2 {
+  height: 200px;
+  width: 200px;
+}
+.padre {
+  display: flex;
+  align-items: center;
+}
+
+.caba0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.caba {
+  font-size: 50px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+
+.caba2 {
+  margin-top: 30px;
+  font-size: 50px;
+  margin-left: 15px;
+}
+.mensajes1 {
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+  margin-top: 20px;
+  background-color: gold;
+  margin-right: 1200px;
+  margin-left: 15px;
+}
+
+.mensajes2 {
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+  margin-top: 20px;
+  background-color: gold;
+  margin-right: 1200px;
+  margin-left: 15px;
+}
+.mapa {
+  position: relative;
+  z-index: 1;
+  left: 60rem;
+  bottom: 37rem;
+  padding-bottom: 3rem;
+}
+
+/* ¿quienes somos? */
+.pitufo {
+  background-color: black;
+}
+.letras {
+  font-size: 20px;
+}
+.articulo {
+  color: white;
+}
+/* productos */
+.kit1 {
+  text-align: center;
+  font-size: 0.7rem;
+  color: teal;
+  background-color: black;
+  border-radius: 1rem;
+}
+#birra0 {
+  margin-left: 1.4rem;
+}
+/* contactos */
+.fondo4 {
+  background-color: black;
+}
+
+/* media query */
+@media (max-width: 890px) {
+  .pagos {
+    display: none;
+  }
+
+  .mapa {
+    display: none;
+  }
+  .caja {
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-image: url("/img/inicio/birrayromero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Unbounded", cursive;
+  }
+
+  .grillagrid {
+    display: grid;
+    height: 55vh;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header header header"
+      "main main main"
+      "footer footer footer";
+  }
+  header {
+    grid-area: header;
+  }
+  main {
+    grid-area: main;
+  }
+  footer {
+    grid-area: footer;
+  }
+  .cerveza {
+    font-size: 55px;
+    padding: 10 0 10 0;
+    color: gold;
+  }
+
+  .puedes {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    color: gold;
+    font-size: 2.5rem;
+    text-decoration: solid underline;
+  }
+  .parrafo3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 0.8;
+    padding-bottom: 2rem;
+  }
+  .chebe {
+    padding-left: 0px;
+    margin-left: 10px;
+    padding-top: 0;
+  }
+  .lup {
+    padding-left: 45px;
+    margin-left: 0;
+    padding-top: 0;
+  }
+
+  .lup {
+    font-size: 2rem;
+    color: gold;
+    text-align: center;
+    text-decoration: solid underline;
+  }
+  .metodos {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: gold;
+  }
+  .redes2 {
+    text-align: center;
+    color: gold;
+    margin-top: 3rem;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .tarjetas {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: gold;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .pagos {
+    margin: 20px;
+    margin-top: 20px;
+    margin-inline-start: 40px;
+  }
+
+  .qr2 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: gold;
+  }
+  .fa-brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    padding-top: 10px;
+    margin-right: 2rem;
+  }
+  .footer-bottom_copyright {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 7rem;
+  }
+  .footer-bottom_copyright1 {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .tr {
+    background-color: red;
+  }
+  .th {
+    color: blue;
+  }
+  .td {
+    color: blue;
+  }
+  .envios {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 20px 20px 20px;
+    color: white;
+  }
+  .logo2 {
+    height: 200px;
+    width: 200px;
+  }
+  .padre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .pitufo {
+    background-image: url("../img/inicio/quienessomos/fabrica.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Unbounded", cursive;
+  }
+  .lupulo {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    text-decoration: solid;
+    text-decoration: black;
+    background-color: darkkhaki;
+  }
+  .inst {
+    display: flex;
+    justify-content: center;
+  }
+  .fondo3 {
+    background-image: url("../img/inicio/productos/vasosconbirra.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Unbounded", cursive;
+  }
+  .fondo4 {
+    background-image: url("../img/inicio/contactos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100%;
+  }
+
+  #birras0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+}
