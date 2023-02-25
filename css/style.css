@@ -69,7 +69,7 @@ body {
   text-align: center;
   text-decoration: solid underline;
 }
-.redes {
+.redes2 {
   text-align: center;
   color: gold;
 }
@@ -119,54 +119,43 @@ body {
 }
 .envios {
   text-align: center;
-  font-size: 40px;
+  font-size: 80px;
   margin: 20px 20px 20px 20px;
-  color: white;
+  color: red;
 }
 .logo2 {
   height: 200px;
   width: 200px;
+  margin-left: 6.6rem;
 }
 .padre {
-  display: flex;
-  align-items: center;
+  color: gold;
+  background-color: red;
 }
-
+.caja {
+  text-align: center;
+}
 .caba0 {
   display: flex;
   flex-direction: column;
 }
 
-.caba {
-  font-size: 50px;
-  margin-bottom: 25px;
-  margin-left: 15px;
-}
-
+.caba,
 .caba2 {
-  margin-top: 30px;
-  font-size: 50px;
-  margin-left: 15px;
-}
-.mensajes1 {
-  font-size: 20px;
-  text-decoration: none;
-  color: blue;
-  margin-top: 20px;
-  background-color: gold;
-  margin-right: 1200px;
-  margin-left: 15px;
+  font-size: 25px;
+  text-align: center;
+  color: gold;
+  background-color: blue;
 }
 
+.mensajes1,
 .mensajes2 {
-  font-size: 20px;
-  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
   color: blue;
-  margin-top: 20px;
   background-color: gold;
-  margin-right: 1200px;
-  margin-left: 15px;
 }
+
 .mapa {
   position: relative;
   z-index: 1;
@@ -210,8 +199,8 @@ body {
   }
   .caja {
     margin-top: 10px;
-    height: 250px;
-    width: 250px;
+    height: 243px;
+    width: 413px;
   }
 }
 @media (min-width: 768px) {
@@ -434,5 +423,60 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
+  }
+  /* envios */
+  .fondo2 {
+    background-image: url("../img/inicio/envios/envios2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Unbounded", cursive;
+  }
+  .envios {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 20px 20px 20px;
+    color: white;
+  }
+  .logo2 {
+    margin-right: 6.6rem;
+  }
+  .padre {
+    display: flex;
+    align-items: center;
+  }
+
+  .caba0 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caba,
+  .caba2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+
+  .mensajes1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    margin-top: 20px;
+    background-color: gold;
+    margin-right: 1200px;
+    margin-left: 15px;
+  }
+
+  .mensajes2 {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    margin-top: 20px;
+    background-color: gold;
+    margin-right: 1200px;
+    margin-left: 15px;
   }
 }
