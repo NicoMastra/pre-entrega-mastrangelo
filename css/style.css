@@ -75,8 +75,9 @@ body {
 }
 .redesimg {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .gmail {
   padding-left: 0;
@@ -427,5 +428,11 @@ body {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 5rem;
+  }
+  .redesimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
   }
 }
