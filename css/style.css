@@ -117,52 +117,6 @@ body {
   width: 100%;
   font-family: "Unbounded", cursive;
 }
-.envios {
-  text-align: center;
-  font-size: 80px;
-  margin: 20px 20px 20px 20px;
-  color: red;
-}
-.logo2 {
-  height: 200px;
-  width: 200px;
-  margin-left: 6.6rem;
-}
-.padre {
-  color: gold;
-  background-color: red;
-}
-.caja {
-  text-align: center;
-}
-.caba0 {
-  display: flex;
-  flex-direction: column;
-}
-
-.caba,
-.caba2 {
-  font-size: 25px;
-  text-align: center;
-  color: gold;
-  background-color: blue;
-}
-
-.mensajes1,
-.mensajes2 {
-  text-align: center;
-  font-size: 25px;
-  color: blue;
-  background-color: gold;
-}
-
-.mapa {
-  position: relative;
-  z-index: 1;
-  left: 60rem;
-  bottom: 37rem;
-  padding-bottom: 3rem;
-}
 
 /* ¿quienes somos? */
 .pitufo {
@@ -339,30 +293,6 @@ body {
     margin-top: 5rem;
   }
 
-  .tr {
-    background-color: red;
-  }
-  .th {
-    color: blue;
-  }
-  .td {
-    color: blue;
-  }
-  .envios {
-    text-align: center;
-    font-size: 40px;
-    margin: 20px 20px 20px 20px;
-    color: white;
-  }
-  .logo2 {
-    height: 200px;
-    width: 200px;
-  }
-  .padre {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
   .pitufo {
     background-image: url("../img/inicio/quienessomos/fabrica.jpg");
     background-size: cover;
@@ -434,6 +364,16 @@ body {
     width: 100%;
     font-family: "Unbounded", cursive;
   }
+
+  .tr {
+    background-color: red;
+  }
+  .th {
+    color: blue;
+  }
+  .td {
+    color: blue;
+  }
   .envios {
     text-align: center;
     font-size: 40px;
@@ -441,16 +381,12 @@ body {
     color: white;
   }
   .logo2 {
-    margin-right: 6.6rem;
-  }
-  .padre {
-    display: flex;
-    align-items: center;
+    height: 200px;
+    width: 200px;
   }
 
-  .caba0 {
-    display: flex;
-    flex-direction: column;
+  .padre {
+    border: 1px solid black;
   }
 
   .caba,
@@ -478,5 +414,12 @@ body {
     background-color: gold;
     margin-right: 1200px;
     margin-left: 15px;
+  }
+  .mapa {
+    position: relative;
+    z-index: 1;
+    left: 60rem;
+    bottom: 37rem;
+    padding-bottom: 3rem;
   }
 }
