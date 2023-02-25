@@ -192,8 +192,8 @@ body {
   background-color: black;
   border-radius: 1rem;
 }
-#birra0 {
-  margin-left: 1.4rem;
+.birras0 {
+  display: flex;
 }
 /* contactos */
 .fondo4 {
@@ -228,8 +228,8 @@ body {
 
   .grillagrid {
     display: grid;
-    margin-left: 15rem;
-    height: 75vh;
+    justify-content: center;
+    height: 30rem;
     grid-template-columns: auto;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
@@ -250,6 +250,9 @@ body {
     font-size: 55px;
     padding: 10 0 10 0;
     color: gold;
+  }
+  .articulo {
+    color: black;
   }
 
   .puedes {
@@ -392,6 +395,9 @@ body {
     color: black;
     text-decoration: solid;
     text-decoration: black;
+  }
+  .lupulos {
+    background-color: darkkhaki;
   }
   .inst {
     display: flex;
