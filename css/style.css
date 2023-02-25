@@ -23,11 +23,11 @@ body {
 }
 
 .puedes {
-  padding-top: 40px;
+  padding-top: 90px;
   color: gold;
   font-size: 2rem;
   text-align: center;
-  display: inline-block;
+
   text-decoration: solid underline;
 }
 .parrafo3 {
@@ -193,9 +193,7 @@ body {
   background-color: black;
   border-radius: 1rem;
 }
-.birras0 {
-  display: flex;
-}
+
 /* contactos */
 .fondo4 {
   background-color: black;
@@ -397,7 +395,11 @@ body {
     text-decoration: solid;
     text-decoration: black;
   }
-  .lupulos {
+  .articulo {
+    text-align: center;
+  }
+  .letras {
+    width: 1315px;
     background-color: darkkhaki;
   }
   .inst {
@@ -422,12 +424,10 @@ body {
     width: 100%;
   }
 
-  #birras0 {
+  .birras0 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    padding-bottom: 5rem;
   }
   .redesimg {
     display: flex;
