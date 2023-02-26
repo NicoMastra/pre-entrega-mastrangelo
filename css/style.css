@@ -131,6 +131,12 @@ body {
 .articulo {
   color: white;
 }
+.nuestra {
+  text-align: center;
+}
+.letras {
+  text-align: center;
+}
 /* productos */
 .kit1 {
   text-align: center;
@@ -138,6 +144,9 @@ body {
   color: teal;
   background-color: black;
   border-radius: 1rem;
+}
+.birras0 {
+  padding-left: 2rem;
 }
 
 /* contactos */
@@ -275,6 +284,7 @@ body {
     color: gold;
   }
   .fa-brands {
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
