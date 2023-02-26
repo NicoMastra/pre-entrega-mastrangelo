@@ -44,8 +44,7 @@ body {
   padding: 5 0 5 0;
   color: gold;
 }
-.nb,
-.logo2 {
+.nb {
   display: flex;
   justify-content: center;
 }
@@ -109,13 +108,18 @@ body {
 /* css envios */
 
 .fondo2 {
-  background-image: url("../img/inicio/envios/envios2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
-  background-attachment: fixed;
-  width: 100%;
-  font-family: "Unbounded", cursive;
+  background-color: black;
+}
+.envios {
+  text-align: center;
+  color: red;
+  font-size: 1rem;
+}
+.caba {
+  color: gold;
+}
+.mensajes1 {
+  color: gold;
 }
 
 /* ¿quienes somos? */
@@ -237,7 +241,7 @@ body {
   .redes2 {
     text-align: center;
     color: gold;
-    margin-top: 3rem;
+    margin-top: 9rem;
   }
   .contenedor {
     display: flex;
@@ -365,61 +369,25 @@ body {
     font-family: "Unbounded", cursive;
   }
 
-  .tr {
-    background-color: red;
-  }
-  .th {
-    color: blue;
-  }
-  .td {
-    color: blue;
-  }
-  .envios {
-    text-align: center;
-    font-size: 40px;
-    margin: 20px 20px 20px 20px;
-    color: white;
-  }
-  .logo2 {
-    height: 200px;
-    width: 200px;
-  }
-
-  .padre {
-    border: 1px solid black;
-  }
-
-  .caba,
-  .caba2 {
-    font-size: 50px;
-    margin-bottom: 25px;
-    margin-left: 15px;
-  }
-
-  .mensajes1 {
-    font-size: 20px;
-    text-decoration: none;
-    color: blue;
-    margin-top: 20px;
-    background-color: gold;
-    margin-right: 1200px;
-    margin-left: 15px;
-  }
-
-  .mensajes2 {
-    font-size: 20px;
-    text-decoration: none;
-    color: blue;
-    margin-top: 20px;
-    background-color: gold;
-    margin-right: 1200px;
-    margin-left: 15px;
-  }
   .mapa {
     position: relative;
     z-index: 1;
-    left: 60rem;
-    bottom: 37rem;
+    left: 52.5rem;
+    bottom: 35rem;
     padding-bottom: 3rem;
+  }
+  .caba {
+    color: gold;
+  }
+  .mensajes1 {
+    display: flex;
+    background-color: gold;
+    color: blue;
+    font-size: 15px;
+    margin-right: 50rem;
+  }
+  .logo2 {
+    display: block;
+    align-items: center;
   }
 }
